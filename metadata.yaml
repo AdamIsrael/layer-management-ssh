@@ -1,0 +1,8 @@
+name: layer-management-ssh
+summary: A layer that enables a charm to communicate with a remote machine over SSH
+maintainer: Adam Israel <adam.israel@canonical.com>
+description: |
+  <Multi-line description here>
+tags:
+  - misc
+subordinate: false

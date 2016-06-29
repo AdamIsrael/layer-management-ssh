@@ -1,0 +1,13 @@
+options:
+  hostname:
+    type: string
+    default:
+    description: The hostname or IP to connect to.
+  user:
+    type: string
+    default:
+    description: The name of the user to connect as.
+  password:
+    type: string
+    default:
+    description: Password for the user.
