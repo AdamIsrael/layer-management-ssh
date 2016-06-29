@@ -1,4 +1,4 @@
-name: layer-management-ssh
+name: management-ssh
 summary: A layer that enables a charm to communicate with a remote machine over SSH
 maintainer: Adam Israel <adam.israel@canonical.com>
 description: |
