@@ -1,4 +1,4 @@
-from charms.reactive import when, when_not, set_state
+from charms.reactive import when, set_state, remove_state
 
 import paramiko
 import subprocess
@@ -21,6 +21,10 @@ def configure_ssh_management():
         if hostname and user and password:
             set_state('mgmt.remote')
             set_state('mgmt.remote.ssh')
+        else:
+            remove_state('mgmt.remote')
+            remove_state('mgmt.remote.ssh')
+
 
 class NetNS(object):
     def __init__(self, name):
